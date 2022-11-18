@@ -152,6 +152,7 @@ ul {
 
     .hamburger_menu {
       display:block;
+      z-index: 5;
     }
 
     .background_square {
@@ -165,11 +166,19 @@ ul {
       width: 50%;
       padding: 0;
       height: 35%;
-      margin-right: 60px;
+      margin-right: -500px;
       border-radius: 10px;
       display:grid;
       position:absolute;
-      background-color: rgba(102, 255, 217, 0.178);
+      background-color: rgba(177, 255, 236, 0.849);
       backdrop-filter: blur(2px);
+      margin-left: -100%; /*hide by default*/
+      transition:0.5s;
     }
+
+    .center_nav.mobile-menu {
+      position: absolute;
+      margin-right: 60px; /*like a diplay:block ;)*/
+    }
+    
   }  
