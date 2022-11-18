@@ -163,22 +163,37 @@ ul {
       z-index: 5;
       margin-top: 60px;
       right:0;
-      width: 50%;
+      width: 40%;
       padding: 0;
       height: 35%;
-      margin-right: -500px;
+      margin-right: -500px; /*hide by default*/
       border-radius: 10px;
       display:grid;
       position:absolute;
       background-color: rgba(177, 255, 236, 0.849);
       backdrop-filter: blur(2px);
-      margin-left: -100%; /*hide by default*/
-      transition:0.5s;
+      transition:0.7s;
+    }
+
+    .right_nav {
+      position:absolute;
+      z-index: 5;
+      margin-top: 60%;
+      right:-300px;
+      
     }
 
     .center_nav.mobile-menu {
       position: absolute;
       margin-right: 60px; /*like a diplay:block ;)*/
+    }
+
+    .right_nav.mobile-menu2 {
+      position:absolute;
+      z-index: 5;
+      margin-top: 60%;
+      right:100px;
+      transition: 1s;
     }
     
   }  
