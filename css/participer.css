@@ -1,0 +1,22 @@
+.hide {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top:-100px;
+    height: 100px;
+    width: 100%;
+}
+.dons {
+}
+
+.volunteering {
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 10px;
+    max-height: 100%;
+    max-width: 50%;
+}
+
+.background {
+    position:absolute;
+    margin-top: 50%;
+}

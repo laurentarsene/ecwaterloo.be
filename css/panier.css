@@ -1,0 +1,27 @@
+.hide {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top:-100px;
+    height: 100px;
+    width: 100%;
+}
+.dons {
+    z-index: -5;
+}
+.panier_text{
+    position:absolute;
+    margin-top: 250px;
+    margin-left: 60%;
+    margin-right: 200px;
+    color:rgb(145, 167, 240);
+}
+.subtext {
+    margin-top: 40px;
+    font-weight: 100;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.add2cal {
+    margin-top: 40px;
+}
