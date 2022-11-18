@@ -1,25 +1,23 @@
 .hand {
     position:absolute;
-    right:0;
-    margin-top: 30px;
-    margin-right: 60px;
-    max-width: 35%;
-    z-index: -5;
+    max-width: 50%;
+    left:45%;
+    top:20%;
 }
 
 .herotext {
     position: absolute;
     font-size: 2em;
-    max-width: 25%;
+    max-width: 30%;
     margin-left: 17%;
     margin-top: 150px;
     color: rgb(67, 200, 151);
 }
 .subherotext {
     position: absolute;
-    max-width: 25%;
+    max-width: 30%;
     margin-left: 17%;
-    margin-top: 470px;
+    margin-top: 420px;
     font-family: "DM Serif Display";
     color: rgb(53, 53, 53);
     letter-spacing: 1px;
@@ -31,11 +29,18 @@
     margin-left: 25%;
 }
 
+.banner {
+    position: absolute;
+    padding: 0;
+    margin:0;
+    margin-top: -450px;
+    margin-left: 7%;
+    max-width: 100%;
+    
+}
 .partenaires {
-    margin-top: -500px;
     margin-left: 30px;
 }
-
 /*
 .box {
     background-color: rgba(117, 230, 189, 0.325);
