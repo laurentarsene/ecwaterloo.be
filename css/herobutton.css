@@ -20,14 +20,13 @@ body {
 }
 
 .btn {
-  position: absolute;
   display: inline-block;
   color: rgb(67, 200, 151);
   padding: 32px;
-  left:0;
-  margin-top:10% ;
-  margin-left: 20%;
+  position: relative;
   letter-spacing: 1px;
+  margin-left: -1000px;
+  margin-top: 200px;
 }
 .btn__circle, .btn__text, .btn__white-circle {
   position: absolute;

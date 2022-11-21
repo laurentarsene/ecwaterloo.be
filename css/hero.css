@@ -7,50 +7,34 @@
 
 .herotext {
     position: absolute;
-    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
     max-width: 30%;
     margin-left: 17%;
-    margin-top: 150px;
+    margin-top: 100px;
     color: rgb(67, 200, 151);
 }
 .subherotext {
     position: absolute;
     max-width: 30%;
-    margin-left: 17%;
-    margin-top: 420px;
-    font-family: "DM Serif Display";
+    margin-left: 16%;
+    margin-top: 400px;
+    font-family: 'Kalam', cursive;
+
     color: rgb(53, 53, 53);
     letter-spacing: 1px;
     font-weight: 100;
 }
 
 .banner {
-    
-    margin-left: 25%;
-}
-
-.banner {
     position: absolute;
     padding: 0;
     margin:0;
-    margin-top: -340px;
+    margin-top: -250px;
     margin-left: 7%;
     max-width: 100%;
     
 }
 .partenaires {
     margin-left: 30px;
-}
-/*
-.box {
-    background-color: rgba(117, 230, 189, 0.325);
-    margin-inline: 20%;
-    margin-top: 80px;
-    height: 300px;
-    border-radius: 20px;
-}
-*/
-
-@media only screen and (max-width: 900px) {
-    
 }
