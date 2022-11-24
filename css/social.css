@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+.responsive-wrapper {
+  padding:100px
+}
+
 h1 {
   color: #fabea1;
 }
@@ -34,9 +38,9 @@ img {
   justify-content: center;
 }
 .page-title h1 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  color: #fcf9f5;
+  color: #000000;
   text-align: center;
   position: relative;
 }
