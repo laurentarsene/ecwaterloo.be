@@ -16,6 +16,12 @@ h1 {
 p {
   font-weight: 100;
   letter-spacing: 1px;
+  font-family: "Fraunces", serif;
+  font-size: 0.7em;
+}
+
+a {
+  font-size: 0.8em;
 }
 
 body {
@@ -36,6 +42,8 @@ img {
   padding-right: 1.5rem;
   display: flex;
   justify-content: center;
+  font-family: "Fraunces", serif;
+
 }
 .page-title h1 {
   font-size: 1.5rem;
