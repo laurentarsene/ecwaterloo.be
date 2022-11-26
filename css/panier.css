@@ -1,17 +1,17 @@
 .hide {
     background-color: rgb(255, 255, 255);
     position: absolute;
-    margin-top:-100px;
+    margin-top:-110px;
     height: 100px;
-    width: 100%;
+    width: 60%;
 }
-.dons {
-    z-index: -5;
-}
+
 .panier_text{
+    width: 25%;
     position:absolute;
-    margin-top: 250px;
-    margin-left: 60%;
+    margin-top: 290px;
+    font-size: 0.8em;
+    margin-left: 62%;
     margin-right: 200px;
     color:rgb(145, 167, 240);
 }
@@ -22,6 +22,15 @@
     letter-spacing: 1px;
 }
 
+.form {
+    margin-left: 100px;
+    padding-top: 100px;
+}
+
 .add2cal {
     margin-top: 40px;
+}
+
+@media only screen and (max-width : 1200px) {
+
 }
