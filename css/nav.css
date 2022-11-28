@@ -179,9 +179,9 @@ ul {
 
     .center_nav {
       z-index: 5;
-      margin-top: 60px;
+      margin-top: 2%;
       right:0;
-      width: 250px;
+      width: 300px;
       padding: 0;
       height: 35%;
       margin-right: -500px; /*hide by default*/
@@ -195,7 +195,7 @@ ul {
     .right_nav {
       position:absolute;
       z-index: 5;
-      margin-top: 60%;
+      margin-top: 35vh;
       right:-300px;
       
     }
@@ -209,9 +209,8 @@ ul {
     }
 
     .right_nav.mobile-menu2 {
-      position:absolute;
       z-index: 5;
-      margin-top: 370px;
+      transition: 1s;
       right:75px;
     }
     

@@ -1,15 +1,15 @@
 .hide {
     background-color: rgb(255, 255, 255);
     position: absolute;
-    margin-top:-110px;
+    margin-top:-200px;
     height: 100px;
-    width: 60%;
+    width: 100%;
 }
 
 .panier_text{
     width: 25%;
     position:absolute;
-    margin-top: 290px;
+    margin-top: 200px;
     font-size: 0.8em;
     margin-left: 62%;
     margin-right: 200px;
@@ -24,13 +24,28 @@
 
 .form {
     margin-left: 100px;
-    padding-top: 100px;
+    padding-top: 50px;
+    width: 50%;
 }
 
 .add2cal {
     margin-top: 40px;
+    margin-left: 35%;
 }
 
 @media only screen and (max-width : 1200px) {
-
+    .form {
+        width: 80%;
+        margin: 0;
+        margin-left: 10%;
+        padding: 0;
+        padding-top: 400px;
+    }
+    .panier_text {
+        margin: 0;
+        width:80%;
+        margin-top: 150px;
+        margin-left: 10%;
+        padding: 0;
+    }
 }
