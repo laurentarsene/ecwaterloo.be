@@ -25,8 +25,10 @@ body {
   padding: 32px;
   position: relative;
   letter-spacing: 1px;
-  margin-left: -1000px;
-  margin-top: 200px;
+  position:absolute;
+  left:0;
+  margin-left: 17%;
+  margin-top: -800px;
 }
 .btn__circle, .btn__text, .btn__white-circle {
   position: absolute;
@@ -81,3 +83,10 @@ body {
   align-items: center;
   justify-content: center;
 }/*# sourceMappingURL=herobutton.css.map */
+
+@media only screen and (max-width : 1200px) {
+  .btn {
+    margin-top: -1000px;
+    margin-left: 40%;
+  }
+}
