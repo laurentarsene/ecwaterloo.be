@@ -86,7 +86,7 @@ body {
 
 @media only screen and (max-width : 1200px) {
   .btn {
-    margin-top: -1000px;
-    margin-left: 40%;
+    margin-top: 10px;
+    margin-left: 17%;
   }
 }

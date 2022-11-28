@@ -127,6 +127,7 @@ ul {
     padding: 24px 30px;
     text-decoration: none;
     font-size: 0.9em;
+    margin-top: -10px;
     color: #57605e;
     font-weight: 400;
     letter-spacing: 2px;
@@ -135,6 +136,7 @@ ul {
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     transition-delay: 10ms;
+    font-weight: 500;
     color: #000000;
   }
   .right_nav a:hover {
@@ -159,10 +161,10 @@ ul {
   .hamburger_menu {
     display: none;
     position:absolute;
-    width: 30px;
+    width: 25px;
     right:0;
     top:0;
-    margin-top:15px;
+    margin-top:25px;
     margin-right: 50px;
   }
 
